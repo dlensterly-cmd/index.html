@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Site Web</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #0f172a;
+            color: #f8fafc;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #1e293b;
+            padding: 20px;
+            text-align: center;
+            border-bottom: 1px solid #334155;
+        }
+        header h1 {
+            color: #38bdf8;
+            font-size: 1.8rem;
+        }
+        .hero {
+            padding: 60px 20px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .hero h2 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+        .hero p {
+            color: #94a3b8;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #38bdf8;
+            color: #0f172a;
+            padding: 12px 28px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto 50px auto;
+        }
+        .card {
+            background-color: #1e293b;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #334155;
+        }
+        .card h3 {
+            color: #38bdf8;
+            margin-bottom: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1e293b;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mon Projet Web</h1>
+    </header>
+
+    <section class="hero">
+        <h2>Bienvenue sur mon site officiel</h2>
+        <p>Découvrez mes services, mes créations et mes projets en ligne.</p>
+        <a href="#contact" class="btn">Me contacter</a>
+    </section>
+
+    <section class="services">
+        <div class="card">
+            <h3>Service 1</h3>
+            <p>Description courte de ce que vous proposez ou de votre première spécialité.</p>
+        </div>
+        <div class="card">
+            <h3>Service 2</h3>
+            <p>Description courte de votre deuxième point fort ou projet.</p>
+        </div>
+        <div class="card">
+            <h3>Service 3</h3>
+            <p>Informations utiles ou moyens de vous joindre directement.</p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>&copy; 2026 - Créé par dlensterly-cmd</p>
+    </footer>
+
+</body>
+</html>
