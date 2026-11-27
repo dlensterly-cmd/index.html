@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Web</title>
+    <title>DOUDOU Lensterly | Développeur Web</title>
     <style>
         * {
             margin: 0;
@@ -18,94 +18,134 @@
         }
         header {
             background-color: #1e293b;
-            padding: 20px;
+            padding: 40px 20px;
             text-align: center;
             border-bottom: 1px solid #334155;
+        }
+        .avatar {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background-color: #38bdf8;
+            color: #0f172a;
+            font-size: 2rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px auto;
         }
         header h1 {
             color: #38bdf8;
             font-size: 1.8rem;
         }
+        header p {
+            color: #94a3b8;
+            margin-top: 5px;
+        }
         .hero {
-            padding: 60px 20px;
             text-align: center;
-            max-width: 800px;
-            margin: 0 auto;
+            padding: 40px 20px;
+            max-width: 650px;
+            margin: auto;
         }
         .hero h2 {
-            font-size: 2.2rem;
+            font-size: 1.6rem;
             margin-bottom: 15px;
         }
         .hero p {
-            color: #94a3b8;
-            font-size: 1.1rem;
-            margin-bottom: 30px;
+            color: #cbd5e1;
+            margin-bottom: 25px;
         }
-        .btn {
+        .btn-whatsapp {
             display: inline-block;
-            background-color: #38bdf8;
+            background-color: #22c55e;
             color: #0f172a;
-            padding: 12px 28px;
+            padding: 14px 28px;
+            border-radius: 8px;
             text-decoration: none;
             font-weight: bold;
-            border-radius: 8px;
+            font-size: 1rem;
         }
         .services {
+            max-width: 800px;
+            margin: 0 auto 40px auto;
+            padding: 0 20px;
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 20px;
-            padding: 20px;
-            max-width: 1000px;
-            margin: 0 auto 50px auto;
         }
         .card {
             background-color: #1e293b;
-            padding: 25px;
-            border-radius: 12px;
             border: 1px solid #334155;
+            border-radius: 12px;
+            padding: 25px;
         }
         .card h3 {
             color: #38bdf8;
             margin-bottom: 10px;
         }
-        footer {
+        .card p {
+            color: #cbd5e1;
+            font-size: 0.95rem;
+        }
+        .socials {
             text-align: center;
             padding: 20px;
-            background-color: #1e293b;
+        }
+        .socials a {
+            color: #38bdf8;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: 500;
+        }
+        footer {
+            text-align: center;
+            padding: 25px;
+            border-top: 1px solid #334155;
             color: #64748b;
-            font-size: 0.9rem;
+            font-size: 0.85rem;
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Mon Projet Web</h1>
+        <div class="avatar">DL</div>
+        <h1>DOUDOU Lensterly</h1>
+        <p>Développeur Web • Cap-Haïtien, Haïti</p>
     </header>
 
     <section class="hero">
-        <h2>Bienvenue sur mon site officiel</h2>
-        <p>Découvrez mes services, mes créations et mes projets en ligne.</p>
-        <a href="#contact" class="btn">Me contacter</a>
+        <h2>Bienvenue sur ma page officielle</h2>
+        <p>J'accompagne les particuliers et les petites entreprises dans la création de projets modernes en ligne. Découvrez mes services ci-dessous et contactez-moi directement.</p>
+        <a href="https://wa.me" class="btn-whatsapp">Me contacter sur WhatsApp</a>
     </section>
 
     <section class="services">
         <div class="card">
-            <h3>Service 1</h3>
-            <p>Description courte de ce que vous proposez ou de votre première spécialité.</p>
+            <h3>1. Création de Sites Web</h3>
+            <p>Conception de pages web rapides, élégantes et adaptées à tous les téléphones et ordinateurs.</p>
         </div>
+
         <div class="card">
-            <h3>Service 2</h3>
-            <p>Description courte de votre deuxième point fort ou projet.</p>
+            <h3>2. Design & Graphisme</h3>
+            <p>Création d'affiches, logos et visuels professionnels pour dynamiser vos réseaux sociaux.</p>
         </div>
+
         <div class="card">
-            <h3>Service 3</h3>
-            <p>Informations utiles ou moyens de vous joindre directement.</p>
+            <h3>3. Accompagnement Digital</h3>
+            <p>Configuration de pages professionnelles, WhatsApp Business et visibilité sur Internet.</p>
         </div>
     </section>
 
-    <footer id="contact">
-        <p>&copy; 2026 - Créé par dlensterly-cmd</p>
+    <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+        <a href="#">TikTok</a>
+    </div>
+
+    <footer>
+        <p>© 2026 DOUDOU Lensterly - Tous droits réservés</p>
     </footer>
 
 </body>
